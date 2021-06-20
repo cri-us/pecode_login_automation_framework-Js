@@ -1,0 +1,21 @@
+{
+  "name": "mocha-webdriver-page-objects-example",
+  "version": "0.0.1",
+  "description": "A stab at using page objects with mocha and webdriverjs.",
+  "scripts": {
+    "test": "node_modules/mocha/bin/mocha"
+  },
+  "devDependencies": {
+    "@wdio/local-runner": "^7.7.4",
+    "@wdio/mocha-framework": "^7.7.4",
+    "@wdio/spec-reporter": "^7.7.3",
+    "chai": "^3.5.0",
+    "chromedriver": "^91.0.1",
+    "mocha": "^2.5.3",
+    "selenium-webdriver": "^3.6.0",
+    "wdio-chromedriver-service": "^7.1.0"
+  },
+  "dependencies": {
+    "selenium-webdriver-selector": "^1.0.3"
+  }
+}
